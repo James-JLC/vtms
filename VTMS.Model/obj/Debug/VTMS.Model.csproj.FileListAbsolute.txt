@@ -1,0 +1,10 @@
+D:\Project\VTMS\VTMS.Model\bin\Debug\VTMS.Model.dll
+D:\Project\VTMS\VTMS.Model\bin\Debug\VTMS.Model.pdb
+D:\Project\VTMS\VTMS.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\VTMS\VTMS.Model\obj\Debug\VTMS.Model.dll
+D:\Project\VTMS\VTMS.Model\obj\Debug\VTMS.Model.pdb
+G:\VTMS\VTMS.Model\bin\Debug\VTMS.Model.dll
+G:\VTMS\VTMS.Model\bin\Debug\VTMS.Model.pdb
+G:\VTMS\VTMS.Model\obj\Debug\ResolveAssemblyReference.cache
+G:\VTMS\VTMS.Model\obj\Debug\VTMS.Model.dll
+G:\VTMS\VTMS.Model\obj\Debug\VTMS.Model.pdb
