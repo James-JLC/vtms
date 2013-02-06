@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="true">
+	<class name="VTMS.Model.Entities.Vehicle,VTMS.Model.Entities" table="vehicle" lazy="false">
+
+		<!-- Primary Key(s) -->
+		<id name="Serial" column="serial" type="String">
+			<generator class="assigned"/>
+		</id>
+		
+		<!-- Properties -->
+    <many-to-one column="originid" class="VTMS.Model.Entities.Customer,VTMS.Model.Entities" name="OriginCustomer" cascade="save-update" unique="true"/>
+		<property column="originpic" type="Byte[](1048576)" name="Originpic" />
+    <many-to-one column="currentid" class="VTMS.Model.Entities.Customer,VTMS.Model.Entities" name="CurrentCustomer" cascade="save-update" unique="true"/>
+		<property column="currentpic" type="Byte[](1048576)" name="Currentpic" />
+		<property column="invoice" type="String" name="Invoice" length="20" />
+		<property column="license" type="String" name="License" not-null="true" length="5" />
+		<property column="vin" type="String" name="Vin" not-null="true" length="20" />
+    <many-to-one column="vehicletype" class="VTMS.Model.Entities.Vehicletype,VTMS.Model.Entities" name="Vehicletype" cascade="none" unique="true" />
+		<property column="brand" type="String" name="Brand" length="50" />
+		<property column="certificate" type="String" name="Certificate" length="20" />
+		<property column="register" type="String" name="Register" not-null="true" length="6" />
+		<property column="certification" type="String" name="Certification" not-null="true" length="8" />
+		<property column="actual" type="String" name="Actual" not-null="true" />
+		<property column="transactions" type="String" name="Transactions" not-null="true" />
+		<property column="department" type="String" name="Department" not-null="true" length="50" />
+    <many-to-one column="company" class="VTMS.Model.Entities.Company,VTMS.Model.Entities" name="Company" cascade="none" unique="true" />
+		<property column="saver" type="String" name="Saver" not-null="true" length="15" />
+		<property column="save_date" type="DateTime" name="SaveDate" not-null="true" />
+		<property column="recorder" type="String" name="Recorder" length="10" />
+		<property column="record_date" type="DateTime" name="RecordDate" />
+		<property column="isrecorded" type="Boolean" name="Isrecorded" />
+		<property column="charger" type="String" name="Charger" length="10" />
+		<property column="charge_date" type="DateTime" name="ChargeDate" />
+		<property column="ischarged" type="Boolean" name="Ischarged" />
+		<property column="printer" type="String" name="Printer" length="10" />
+		<property column="print_date" type="DateTime" name="PrintDate" />
+		<property column="isprinted" type="Boolean" name="Isprinted" />
+		<property column="refunder" type="String" name="Refunder" length="10" />
+		<property column="refund_date" type="DateTime" name="RefundDate" />
+		<property column="isrefund" type="Boolean" name="Isrefund" />
+		<property column="granter" type="String" name="Granter" length="10" />
+		<property column="grant_date" type="DateTime" name="GrantDate" />
+		<property column="isgrant" type="Boolean" name="Isgrant" />
+		<property column="firstpic" type="Byte[](2048576)" name="Firstpic" />
+		<property column="secondpic" type="Byte[](2048576)" name="Secondpic" />
+		<property column="thirdpic" type="Byte[](2048576)" name="Thirdpic" />
+		<property column="forthpic" type="Byte[](2048576)" name="Forthpic" />
+		
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,10 @@
+D:\VTMS\VTMS_Server\bin\Release\VTMS_Server.exe
+D:\VTMS\VTMS_Server\bin\Release\VTMS_Server.pdb
+D:\VTMS\VTMS_Server\bin\Release\DevComponents.DotNetBar2.DLL
+D:\VTMS\VTMS_Server\obj\x86\Release\ResolveAssemblyReference.cache
+D:\VTMS\VTMS_Server\obj\x86\Release\VTMS_Server.Properties.Resources.resources
+D:\VTMS\VTMS_Server\obj\x86\Release\GenerateResource.read.1.tlog
+D:\VTMS\VTMS_Server\obj\x86\Release\GenerateResource.write.1.tlog
+D:\VTMS\VTMS_Server\obj\x86\Release\VTMS_Server.exe
+D:\VTMS\VTMS_Server\obj\x86\Release\VTMS_Server.pdb
+D:\VTMS\VTMS_Server\obj\x86\Release\VTMS_Server.Form.resources

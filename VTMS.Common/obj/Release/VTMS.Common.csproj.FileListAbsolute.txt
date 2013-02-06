@@ -1,0 +1,15 @@
+D:\Project\VTMS\VTMS.Common\bin\Release\VTMS.Common.dll
+D:\Project\VTMS\VTMS.Common\bin\Release\VTMS.Common.pdb
+D:\Project\VTMS\VTMS.Common\obj\Release\ResolveAssemblyReference.cache
+D:\Project\VTMS\VTMS.Common\obj\Release\VTMS.Common.dll
+D:\Project\VTMS\VTMS.Common\obj\Release\VTMS.Common.pdb
+G:\VTMS\VTMS.Common\bin\Release\VTMS.Common.dll
+G:\VTMS\VTMS.Common\bin\Release\VTMS.Common.pdb
+G:\VTMS\VTMS.Common\obj\Release\ResolveAssemblyReference.cache
+G:\VTMS\VTMS.Common\obj\Release\VTMS.Common.dll
+G:\VTMS\VTMS.Common\obj\Release\VTMS.Common.pdb
+D:\VTMS\VTMS.Common\bin\Release\VTMS.Common.dll
+D:\VTMS\VTMS.Common\bin\Release\VTMS.Common.pdb
+D:\VTMS\VTMS.Common\obj\Release\ResolveAssemblyReference.cache
+D:\VTMS\VTMS.Common\obj\Release\VTMS.Common.dll
+D:\VTMS\VTMS.Common\obj\Release\VTMS.Common.pdb
