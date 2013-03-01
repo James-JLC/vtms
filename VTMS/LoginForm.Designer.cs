@@ -110,11 +110,12 @@
             // loginBtn
             // 
             this.loginBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.loginBtn.AutoSize = true;
             this.loginBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.loginBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.loginBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.loginBtn.Location = new System.Drawing.Point(218, 190);
             this.loginBtn.Name = "loginBtn";
-            this.loginBtn.Size = new System.Drawing.Size(75, 28);
+            this.loginBtn.Size = new System.Drawing.Size(75, 30);
             this.loginBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.loginBtn.TabIndex = 8;
             this.loginBtn.TabStop = false;
@@ -140,12 +141,13 @@
             // cancelBtn
             // 
             this.cancelBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.cancelBtn.AutoSize = true;
             this.cancelBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
             this.cancelBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.cancelBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cancelBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cancelBtn.Location = new System.Drawing.Point(63, 190);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(75, 28);
+            this.cancelBtn.Size = new System.Drawing.Size(75, 30);
             this.cancelBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cancelBtn.TabIndex = 9;
             this.cancelBtn.TabStop = false;
@@ -164,9 +166,10 @@
             // 
             this.userName.Border.Class = "TextBoxBorder";
             this.userName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.userName.Location = new System.Drawing.Point(169, 55);
+            this.userName.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.userName.Location = new System.Drawing.Point(169, 51);
             this.userName.Name = "userName";
-            this.userName.Size = new System.Drawing.Size(137, 21);
+            this.userName.Size = new System.Drawing.Size(137, 29);
             this.userName.TabIndex = 1;
             // 
             // password
@@ -176,10 +179,11 @@
             // 
             this.password.Border.Class = "TextBoxBorder";
             this.password.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.password.Location = new System.Drawing.Point(170, 91);
+            this.password.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.password.Location = new System.Drawing.Point(170, 87);
             this.password.Name = "password";
             this.password.PasswordChar = '*';
-            this.password.Size = new System.Drawing.Size(137, 21);
+            this.password.Size = new System.Drawing.Size(137, 29);
             this.password.TabIndex = 2;
             // 
             // server
@@ -189,9 +193,10 @@
             // 
             this.server.Border.Class = "TextBoxBorder";
             this.server.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.server.Location = new System.Drawing.Point(170, 127);
+            this.server.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.server.Location = new System.Drawing.Point(170, 123);
             this.server.Name = "server";
-            this.server.Size = new System.Drawing.Size(137, 21);
+            this.server.Size = new System.Drawing.Size(137, 29);
             this.server.TabIndex = 3;
             // 
             // LoginForm

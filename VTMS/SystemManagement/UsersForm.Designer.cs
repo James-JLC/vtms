@@ -31,6 +31,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.dataGridView = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.UsersId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UsersName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UsersEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UsersIsactive = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelEx2 = new DevComponents.DotNetBar.PanelEx();
             this.advTree1 = new DevComponents.AdvTree.AdvTree();
             this.nodeConnector1 = new DevComponents.AdvTree.NodeConnector();
@@ -48,10 +52,6 @@
             this.label = new DevComponents.DotNetBar.LabelX();
             this.lable2 = new DevComponents.DotNetBar.LabelX();
             this.lable1 = new DevComponents.DotNetBar.LabelX();
-            this.UsersId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UsersName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UsersEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UsersIsactive = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.panelEx2.SuspendLayout();
@@ -92,7 +92,7 @@
             this.UsersIsactive});
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
@@ -109,6 +109,37 @@
             this.dataGridView.TabIndex = 100;
             this.dataGridView.TabStop = false;
             this.dataGridView.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView_RowHeaderMouseClick);
+            // 
+            // UsersId
+            // 
+            this.UsersId.DataPropertyName = "UsersId";
+            this.UsersId.FillWeight = 80F;
+            this.UsersId.HeaderText = "帐号";
+            this.UsersId.Name = "UsersId";
+            this.UsersId.ReadOnly = true;
+            // 
+            // UsersName
+            // 
+            this.UsersName.DataPropertyName = "UsersName";
+            this.UsersName.FillWeight = 110F;
+            this.UsersName.HeaderText = "姓名";
+            this.UsersName.Name = "UsersName";
+            this.UsersName.ReadOnly = true;
+            // 
+            // UsersEmail
+            // 
+            this.UsersEmail.DataPropertyName = "UsersEmail";
+            this.UsersEmail.FillWeight = 160F;
+            this.UsersEmail.HeaderText = "邮箱";
+            this.UsersEmail.Name = "UsersEmail";
+            this.UsersEmail.ReadOnly = true;
+            // 
+            // UsersIsactive
+            // 
+            this.UsersIsactive.DataPropertyName = "UsersIsactive";
+            this.UsersIsactive.FillWeight = 80F;
+            this.UsersIsactive.HeaderText = "激活";
+            this.UsersIsactive.Name = "UsersIsactive";
             // 
             // panelEx2
             // 
@@ -188,10 +219,12 @@
             // 
             this.activeBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.activeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.activeBtn.AutoSize = true;
             this.activeBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.activeBtn.Location = new System.Drawing.Point(234, 22);
+            this.activeBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.activeBtn.Location = new System.Drawing.Point(234, 16);
             this.activeBtn.Name = "activeBtn";
-            this.activeBtn.Size = new System.Drawing.Size(75, 23);
+            this.activeBtn.Size = new System.Drawing.Size(75, 30);
             this.activeBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.activeBtn.TabIndex = 13;
             this.activeBtn.Text = "激活";
@@ -200,10 +233,12 @@
             // resetPwdBtn
             // 
             this.resetPwdBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.resetPwdBtn.AutoSize = true;
             this.resetPwdBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.resetPwdBtn.Location = new System.Drawing.Point(127, 23);
+            this.resetPwdBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.resetPwdBtn.Location = new System.Drawing.Point(127, 17);
             this.resetPwdBtn.Name = "resetPwdBtn";
-            this.resetPwdBtn.Size = new System.Drawing.Size(75, 23);
+            this.resetPwdBtn.Size = new System.Drawing.Size(78, 30);
             this.resetPwdBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.resetPwdBtn.TabIndex = 12;
             this.resetPwdBtn.Text = "重置密码";
@@ -212,10 +247,12 @@
             // clearBtn
             // 
             this.clearBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.clearBtn.AutoSize = true;
             this.clearBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.clearBtn.Location = new System.Drawing.Point(26, 23);
+            this.clearBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.clearBtn.Location = new System.Drawing.Point(26, 17);
             this.clearBtn.Name = "clearBtn";
-            this.clearBtn.Size = new System.Drawing.Size(75, 23);
+            this.clearBtn.Size = new System.Drawing.Size(75, 30);
             this.clearBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.clearBtn.TabIndex = 11;
             this.clearBtn.Text = "清空";
@@ -225,10 +262,12 @@
             // 
             this.delBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.delBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.delBtn.AutoSize = true;
             this.delBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.delBtn.Location = new System.Drawing.Point(234, 23);
+            this.delBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.delBtn.Location = new System.Drawing.Point(234, 17);
             this.delBtn.Name = "delBtn";
-            this.delBtn.Size = new System.Drawing.Size(75, 23);
+            this.delBtn.Size = new System.Drawing.Size(75, 30);
             this.delBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.delBtn.TabIndex = 10;
             this.delBtn.Text = "删除";
@@ -238,10 +277,12 @@
             // 
             this.saveBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.saveBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.saveBtn.AutoSize = true;
             this.saveBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.saveBtn.Location = new System.Drawing.Point(354, 23);
+            this.saveBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.saveBtn.Location = new System.Drawing.Point(354, 17);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(75, 23);
+            this.saveBtn.Size = new System.Drawing.Size(75, 30);
             this.saveBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.saveBtn.TabIndex = 8;
             this.saveBtn.Text = "保存";
@@ -277,9 +318,10 @@
             // 
             this.userName.Border.Class = "TextBoxBorder";
             this.userName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.userName.Location = new System.Drawing.Point(210, 15);
+            this.userName.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.userName.Location = new System.Drawing.Point(229, 9);
             this.userName.Name = "userName";
-            this.userName.Size = new System.Drawing.Size(103, 21);
+            this.userName.Size = new System.Drawing.Size(103, 29);
             this.userName.TabIndex = 2;
             // 
             // userEmail
@@ -290,9 +332,10 @@
             this.userEmail.Border.Class = "TextBoxBorder";
             this.userEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.userEmail.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Email;
-            this.userEmail.Location = new System.Drawing.Point(57, 50);
+            this.userEmail.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.userEmail.Location = new System.Drawing.Point(66, 44);
             this.userEmail.Name = "userEmail";
-            this.userEmail.Size = new System.Drawing.Size(256, 21);
+            this.userEmail.Size = new System.Drawing.Size(266, 29);
             this.userEmail.TabIndex = 3;
             // 
             // userId
@@ -302,10 +345,11 @@
             // 
             this.userId.Border.Class = "TextBoxBorder";
             this.userId.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.userId.Location = new System.Drawing.Point(57, 15);
+            this.userId.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.userId.Location = new System.Drawing.Point(66, 9);
             this.userId.Name = "userId";
             this.userId.ReadOnly = true;
-            this.userId.Size = new System.Drawing.Size(82, 21);
+            this.userId.Size = new System.Drawing.Size(82, 29);
             this.userId.TabIndex = 1;
             this.userId.Leave += new System.EventHandler(this.userId_Leave);
             // 
@@ -317,9 +361,10 @@
             // 
             this.label.BackgroundStyle.Class = "";
             this.label.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.label.Location = new System.Drawing.Point(14, 17);
+            this.label.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label.Location = new System.Drawing.Point(14, 11);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(44, 18);
+            this.label.Size = new System.Drawing.Size(57, 26);
             this.label.TabIndex = 5;
             this.label.Text = "帐号：";
             // 
@@ -331,9 +376,10 @@
             // 
             this.lable2.BackgroundStyle.Class = "";
             this.lable2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lable2.Location = new System.Drawing.Point(14, 52);
+            this.lable2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lable2.Location = new System.Drawing.Point(14, 46);
             this.lable2.Name = "lable2";
-            this.lable2.Size = new System.Drawing.Size(44, 18);
+            this.lable2.Size = new System.Drawing.Size(57, 26);
             this.lable2.TabIndex = 2;
             this.lable2.Text = "邮箱：";
             // 
@@ -345,42 +391,12 @@
             // 
             this.lable1.BackgroundStyle.Class = "";
             this.lable1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lable1.Location = new System.Drawing.Point(167, 17);
+            this.lable1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lable1.Location = new System.Drawing.Point(176, 11);
             this.lable1.Name = "lable1";
-            this.lable1.Size = new System.Drawing.Size(44, 18);
+            this.lable1.Size = new System.Drawing.Size(57, 26);
             this.lable1.TabIndex = 0;
             this.lable1.Text = "姓名：";
-            // 
-            // UsersId
-            // 
-            this.UsersId.DataPropertyName = "UsersId";
-            this.UsersId.FillWeight = 80F;
-            this.UsersId.HeaderText = "帐号";
-            this.UsersId.Name = "UsersId";
-            this.UsersId.ReadOnly = true;
-            // 
-            // UsersName
-            // 
-            this.UsersName.DataPropertyName = "UsersName";
-            this.UsersName.FillWeight = 110F;
-            this.UsersName.HeaderText = "姓名";
-            this.UsersName.Name = "UsersName";
-            this.UsersName.ReadOnly = true;
-            // 
-            // UsersEmail
-            // 
-            this.UsersEmail.DataPropertyName = "UsersEmail";
-            this.UsersEmail.FillWeight = 160F;
-            this.UsersEmail.HeaderText = "邮箱";
-            this.UsersEmail.Name = "UsersEmail";
-            this.UsersEmail.ReadOnly = true;
-            // 
-            // UsersIsactive
-            // 
-            this.UsersIsactive.DataPropertyName = "UsersIsactive";
-            this.UsersIsactive.FillWeight = 80F;
-            this.UsersIsactive.HeaderText = "激活";
-            this.UsersIsactive.Name = "UsersIsactive";
             // 
             // UsersForm
             // 
@@ -398,6 +414,7 @@
             this.panelEx2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.advTree1)).EndInit();
             this.panelEx4.ResumeLayout(false);
+            this.panelEx4.PerformLayout();
             this.panelEx3.ResumeLayout(false);
             this.panelEx3.PerformLayout();
             this.ResumeLayout(false);

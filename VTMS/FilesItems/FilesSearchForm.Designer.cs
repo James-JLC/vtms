@@ -123,10 +123,11 @@
             // 
             this.saveDate.Border.Class = "TextBoxBorder";
             this.saveDate.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.saveDate.Location = new System.Drawing.Point(617, 43);
+            this.saveDate.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.saveDate.Location = new System.Drawing.Point(702, 43);
             this.saveDate.Name = "saveDate";
             this.saveDate.ReadOnly = true;
-            this.saveDate.Size = new System.Drawing.Size(228, 21);
+            this.saveDate.Size = new System.Drawing.Size(228, 29);
             this.saveDate.TabIndex = 13;
             this.saveDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -138,9 +139,10 @@
             // 
             this.labelX7.BackgroundStyle.Class = "";
             this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX7.Location = new System.Drawing.Point(554, 44);
+            this.labelX7.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX7.Location = new System.Drawing.Point(614, 44);
             this.labelX7.Name = "labelX7";
-            this.labelX7.Size = new System.Drawing.Size(68, 18);
+            this.labelX7.Size = new System.Drawing.Size(90, 26);
             this.labelX7.TabIndex = 12;
             this.labelX7.Text = "更新日期：";
             // 
@@ -151,10 +153,11 @@
             // 
             this.process.Border.Class = "TextBoxBorder";
             this.process.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.process.Location = new System.Drawing.Point(104, 42);
+            this.process.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.process.Location = new System.Drawing.Point(96, 42);
             this.process.Name = "process";
             this.process.ReadOnly = true;
-            this.process.Size = new System.Drawing.Size(100, 21);
+            this.process.Size = new System.Drawing.Size(139, 29);
             this.process.TabIndex = 11;
             // 
             // reason
@@ -164,10 +167,11 @@
             // 
             this.reason.Border.Class = "TextBoxBorder";
             this.reason.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.reason.Location = new System.Drawing.Point(304, 43);
+            this.reason.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.reason.Location = new System.Drawing.Point(364, 43);
             this.reason.Name = "reason";
             this.reason.ReadOnly = true;
-            this.reason.Size = new System.Drawing.Size(223, 21);
+            this.reason.Size = new System.Drawing.Size(223, 29);
             this.reason.TabIndex = 10;
             // 
             // labelX6
@@ -178,9 +182,10 @@
             // 
             this.labelX6.BackgroundStyle.Class = "";
             this.labelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX6.Location = new System.Drawing.Point(232, 43);
+            this.labelX6.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX6.Location = new System.Drawing.Point(269, 43);
             this.labelX6.Name = "labelX6";
-            this.labelX6.Size = new System.Drawing.Size(68, 18);
+            this.labelX6.Size = new System.Drawing.Size(90, 26);
             this.labelX6.TabIndex = 9;
             this.labelX6.Text = "退档原因：";
             // 
@@ -192,9 +197,10 @@
             // 
             this.labelX5.BackgroundStyle.Class = "";
             this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX5.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX5.Location = new System.Drawing.Point(12, 43);
             this.labelX5.Name = "labelX5";
-            this.labelX5.Size = new System.Drawing.Size(68, 18);
+            this.labelX5.Size = new System.Drawing.Size(90, 26);
             this.labelX5.TabIndex = 8;
             this.labelX5.Text = "申档状态：";
             // 
@@ -203,12 +209,13 @@
             // 
             // 
             // 
-            this.userName.Border.Class = "TextBoxBorder";
-            this.userName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.userId.Location = new System.Drawing.Point(617, 11);
+            this.userId.Border.Class = "TextBoxBorder";
+            this.userId.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.userId.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.userId.Location = new System.Drawing.Point(702, 11);
             this.userId.Name = "userId";
             this.userId.ReadOnly = true;
-            this.userId.Size = new System.Drawing.Size(228, 21);
+            this.userId.Size = new System.Drawing.Size(228, 29);
             this.userId.TabIndex = 6;
             this.userId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -220,9 +227,10 @@
             // 
             this.labelX4.BackgroundStyle.Class = "";
             this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(554, 12);
+            this.labelX4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX4.Location = new System.Drawing.Point(614, 12);
             this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(68, 18);
+            this.labelX4.Size = new System.Drawing.Size(90, 26);
             this.labelX4.TabIndex = 5;
             this.labelX4.Text = "证件号码：";
             // 
@@ -231,12 +239,13 @@
             // 
             // 
             // 
-            this.userId.Border.Class = "TextBoxBorder";
-            this.userId.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.userName.Location = new System.Drawing.Point(304, 11);
+            this.userName.Border.Class = "TextBoxBorder";
+            this.userName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.userName.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.userName.Location = new System.Drawing.Point(364, 11);
             this.userName.Name = "userName";
             this.userName.ReadOnly = true;
-            this.userName.Size = new System.Drawing.Size(223, 21);
+            this.userName.Size = new System.Drawing.Size(223, 29);
             this.userName.TabIndex = 4;
             // 
             // labelX3
@@ -247,9 +256,10 @@
             // 
             this.labelX3.BackgroundStyle.Class = "";
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(232, 12);
+            this.labelX3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX3.Location = new System.Drawing.Point(269, 12);
             this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(74, 18);
+            this.labelX3.Size = new System.Drawing.Size(98, 26);
             this.labelX3.TabIndex = 3;
             this.labelX3.Text = "姓名/名称：";
             // 
@@ -261,9 +271,11 @@
             this.license.Border.Class = "TextBoxBorder";
             this.license.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.license.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.license.Location = new System.Drawing.Point(104, 11);
+            this.license.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.license.Location = new System.Drawing.Point(135, 11);
+            this.license.MaxLength = 5;
             this.license.Name = "license";
-            this.license.Size = new System.Drawing.Size(100, 21);
+            this.license.Size = new System.Drawing.Size(100, 29);
             this.license.TabIndex = 2;
             this.license.Leave += new System.EventHandler(this.license_Leave);
             // 
@@ -275,9 +287,10 @@
             // 
             this.labelX2.BackgroundStyle.Class = "";
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(73, 12);
+            this.labelX2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX2.Location = new System.Drawing.Point(96, 12);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(31, 18);
+            this.labelX2.Size = new System.Drawing.Size(40, 26);
             this.labelX2.TabIndex = 1;
             this.labelX2.Text = "辽B.";
             // 
@@ -289,9 +302,10 @@
             // 
             this.labelX1.BackgroundStyle.Class = "";
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX1.Location = new System.Drawing.Point(12, 12);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(68, 18);
+            this.labelX1.Size = new System.Drawing.Size(90, 26);
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "车牌号码：";
             // 

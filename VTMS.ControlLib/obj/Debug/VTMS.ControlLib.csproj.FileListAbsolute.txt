@@ -23,3 +23,13 @@ D:\VTMS\VTMS.ControlLib\obj\Debug\GenerateResource.read.1.tlog
 D:\VTMS\VTMS.ControlLib\obj\Debug\GenerateResource.write.1.tlog
 D:\VTMS\VTMS.ControlLib\obj\Debug\VTMS.ControlLib.dll
 D:\VTMS\VTMS.ControlLib\obj\Debug\VTMS.ControlLib.pdb
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\bin\Debug\VTMS.ControlLib.dll
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\bin\Debug\VTMS.ControlLib.pdb
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\bin\Debug\DevComponents.DotNetBar.Design.dll
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\obj\Debug\VTMS.ControlLib.Properties.Resources.resources
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\obj\Debug\VTMS.ControlLib.dll
+C:\Users\IBM_ADMIN\vtms\VTMS.ControlLib\obj\Debug\VTMS.ControlLib.pdb

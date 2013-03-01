@@ -25,6 +25,7 @@ namespace VTMS.Statistics
             this.dataGridView.AutoGenerateColumns = false;
             this.startDate.Value = DateTime.Today;
             this.endDate.Value = DateTime.Today;
+            this.brand.DataSource = VehicleDao.GetBrands();
         }
         #endregion
 
@@ -57,7 +58,7 @@ namespace VTMS.Statistics
 
                 string v_Line = v_LineNo.ToString();
 
-                e.Graphics.DrawString(v_Line, e.InheritedRowStyle.Font, v_SolidBrush, e.RowBounds.Location.X + 15, e.RowBounds.Location.Y + 5);
+                e.Graphics.DrawString(v_Line, e.InheritedRowStyle.Font, v_SolidBrush, e.RowBounds.Location.X + 15, e.RowBounds.Location.Y + 1);
 
             }
             catch (Exception ex)

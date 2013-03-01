@@ -1,0 +1,10 @@
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\bin\Debug\VTMS_Server.exe
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\bin\Debug\VTMS_Server.pdb
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\bin\Debug\DevComponents.DotNetBar2.DLL
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\obj\x86\Debug\VTMS_Server.Form.resources
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\obj\x86\Debug\VTMS_Server.Properties.Resources.resources
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\obj\x86\Debug\VTMS_Server.exe
+C:\Users\IBM_ADMIN\vtms\VTMS_Server\obj\x86\Debug\VTMS_Server.pdb

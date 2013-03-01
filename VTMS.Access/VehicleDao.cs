@@ -188,5 +188,23 @@ namespace VTMS.Access
                 return q.List<Vehicle>();
             }
         }
+        public static System.Collections.IList GetBrands()
+        {
+            string sql = "select distinct brand from Vehicle";
+            System.Collections.IList listVehicle = new System.Collections.ArrayList();
+            IQuery q = null;
+
+            using (ISession session = SessionFactory.OpenSession())
+            {
+                q = session.CreateSQLQuery(sql);
+                System.Collections.IList tmp = q.List();
+                foreach (object o in tmp)
+                {
+                    if(o != null)
+                    listVehicle.Add(o.ToString());
+                }
+                return listVehicle;
+            }
+        }
     }
 }

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.caculate = new DevComponents.DotNetBar.ButtonX();
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.endDate = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
@@ -51,10 +51,12 @@
             // caculate
             // 
             this.caculate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.caculate.AutoSize = true;
             this.caculate.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.caculate.Location = new System.Drawing.Point(780, 11);
+            this.caculate.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.caculate.Location = new System.Drawing.Point(780, 7);
             this.caculate.Name = "caculate";
-            this.caculate.Size = new System.Drawing.Size(75, 23);
+            this.caculate.Size = new System.Drawing.Size(75, 30);
             this.caculate.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.caculate.TabIndex = 7;
             this.caculate.Text = "统计";
@@ -93,10 +95,11 @@
             this.endDate.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.endDate.ButtonDropDown.Visible = true;
             this.endDate.CustomFormat = "yyyy/MM/dd";
+            this.endDate.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.endDate.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
             this.endDate.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Center;
             this.endDate.IsPopupCalendarOpen = false;
-            this.endDate.Location = new System.Drawing.Point(225, 12);
+            this.endDate.Location = new System.Drawing.Point(272, 8);
             // 
             // 
             // 
@@ -131,7 +134,7 @@
             this.endDate.MonthCalendar.TodayButtonVisible = true;
             this.endDate.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
             this.endDate.Name = "endDate";
-            this.endDate.Size = new System.Drawing.Size(114, 21);
+            this.endDate.Size = new System.Drawing.Size(144, 29);
             this.endDate.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.endDate.TabIndex = 4;
             this.endDate.Value = new System.DateTime(2013, 1, 1, 0, 0, 0, 0);
@@ -144,9 +147,10 @@
             // 
             this.labelX2.BackgroundStyle.Class = "";
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(200, 13);
+            this.labelX2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX2.Location = new System.Drawing.Point(247, 9);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(19, 18);
+            this.labelX2.Size = new System.Drawing.Size(24, 26);
             this.labelX2.TabIndex = 3;
             this.labelX2.Text = "～";
             // 
@@ -161,10 +165,11 @@
             this.startDate.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.startDate.ButtonDropDown.Visible = true;
             this.startDate.CustomFormat = "yyyy/MM/dd";
+            this.startDate.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.startDate.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
             this.startDate.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Center;
             this.startDate.IsPopupCalendarOpen = false;
-            this.startDate.Location = new System.Drawing.Point(80, 12);
+            this.startDate.Location = new System.Drawing.Point(97, 8);
             // 
             // 
             // 
@@ -199,7 +204,7 @@
             this.startDate.MonthCalendar.TodayButtonVisible = true;
             this.startDate.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
             this.startDate.Name = "startDate";
-            this.startDate.Size = new System.Drawing.Size(114, 21);
+            this.startDate.Size = new System.Drawing.Size(144, 29);
             this.startDate.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.startDate.TabIndex = 1;
             this.startDate.Value = new System.DateTime(2013, 1, 1, 0, 0, 0, 0);
@@ -212,9 +217,10 @@
             // 
             this.labelX1.BackgroundStyle.Class = "";
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(12, 13);
+            this.labelX1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX1.Location = new System.Drawing.Point(12, 9);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(68, 18);
+            this.labelX1.Size = new System.Drawing.Size(90, 26);
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "日期范围：";
             // 
@@ -231,14 +237,14 @@
             this.RegisterColumn,
             this.Column6,
             this.Column5});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dataGridView.Location = new System.Drawing.Point(0, 44);

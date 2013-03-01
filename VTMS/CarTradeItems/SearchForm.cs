@@ -70,26 +70,32 @@ namespace VTMS.CarTradeItems
         private void dataGridView_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
                 Vehicle vehicle = dataGridView.Rows[e.RowIndex].DataBoundItem as Vehicle;
-
-                if (dataGridView.Columns[e.ColumnIndex].Name == "OriginId")
+                try
                 {
-                    e.Value = vehicle.OriginCustomer.Id;
+                    if (dataGridView.Columns[e.ColumnIndex].Name == "OriginId")
+                    {
+                        e.Value = vehicle.OriginCustomer.Id;
+                    }
+                    else if (dataGridView.Columns[e.ColumnIndex].Name == "OriginName")
+                    {
+                        e.Value = vehicle.OriginCustomer.Name;
+                    }
+                    else if (dataGridView.Columns[e.ColumnIndex].Name == "CurrentId")
+                    {
+                        e.Value = vehicle.CurrentCustomer.Id;
+                    }
+                    else if (dataGridView.Columns[e.ColumnIndex].Name == "CurrentName")
+                    {
+                        e.Value = vehicle.CurrentCustomer.Name;
+                    }
+                    else if (dataGridView.Columns[e.ColumnIndex].Name == "VehicleType")
+                    {
+                        e.Value = vehicle.Vehicletype.Name;
+                    }
                 }
-                else if (dataGridView.Columns[e.ColumnIndex].Name == "OriginName")
+                catch
                 {
-                    e.Value = vehicle.OriginCustomer.Name;
-                }
-                else if (dataGridView.Columns[e.ColumnIndex].Name == "CurrentId")
-                {
-                    e.Value = vehicle.CurrentCustomer.Id;
-                }
-                else if (dataGridView.Columns[e.ColumnIndex].Name == "CurrentName")
-                {
-                    e.Value = vehicle.CurrentCustomer.Name;
-                }
-                else if (dataGridView.Columns[e.ColumnIndex].Name == "VehicleType")
-                {
-                    e.Value = vehicle.Vehicletype.Name;
+                    MessageUtil.ShowTips("错误" + vehicle.Serial);
                 }
         }
     }

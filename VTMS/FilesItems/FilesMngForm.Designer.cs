@@ -30,15 +30,15 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
-            this.dataGridView = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
-            this.labelX3 = new DevComponents.DotNetBar.LabelX();
-            this.process = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.labelX4 = new DevComponents.DotNetBar.LabelX();
-            this.reason = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.saveBtn = new DevComponents.DotNetBar.ButtonX();
             this.license = new VTMS.ControlLib.TextBoxExt();
+            this.saveBtn = new DevComponents.DotNetBar.ButtonX();
+            this.reason = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.labelX4 = new DevComponents.DotNetBar.LabelX();
+            this.process = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.labelX3 = new DevComponents.DotNetBar.LabelX();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.dataGridView = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -72,6 +72,125 @@
             this.panelEx1.Style.GradientAngle = 90;
             this.panelEx1.TabIndex = 1;
             // 
+            // license
+            // 
+            // 
+            // 
+            // 
+            this.license.Border.Class = "TextBoxBorder";
+            this.license.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.license.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.license.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.license.Location = new System.Drawing.Point(145, 12);
+            this.license.MaxLength = 5;
+            this.license.Name = "license";
+            this.license.NotNull = false;
+            this.license.Size = new System.Drawing.Size(90, 29);
+            this.license.TabIndex = 1;
+            this.license.Leave += new System.EventHandler(this.license_Leave);
+            // 
+            // saveBtn
+            // 
+            this.saveBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.saveBtn.AutoSize = true;
+            this.saveBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.saveBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.saveBtn.Location = new System.Drawing.Point(877, 12);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(75, 30);
+            this.saveBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.saveBtn.TabIndex = 7;
+            this.saveBtn.Text = "保存";
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            // 
+            // reason
+            // 
+            // 
+            // 
+            // 
+            this.reason.Border.Class = "TextBoxBorder";
+            this.reason.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.reason.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.reason.Location = new System.Drawing.Point(573, 12);
+            this.reason.MaxLength = 99;
+            this.reason.Name = "reason";
+            this.reason.Size = new System.Drawing.Size(253, 29);
+            this.reason.TabIndex = 3;
+            // 
+            // labelX4
+            // 
+            this.labelX4.AutoSize = true;
+            // 
+            // 
+            // 
+            this.labelX4.BackgroundStyle.Class = "";
+            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX4.Location = new System.Drawing.Point(488, 13);
+            this.labelX4.Name = "labelX4";
+            this.labelX4.Size = new System.Drawing.Size(90, 26);
+            this.labelX4.TabIndex = 5;
+            this.labelX4.Text = "退档原因：";
+            // 
+            // process
+            // 
+            this.process.DisplayMember = "Text";
+            this.process.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.process.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.process.FormattingEnabled = true;
+            this.process.ItemHeight = 23;
+            this.process.Location = new System.Drawing.Point(327, 12);
+            this.process.Name = "process";
+            this.process.Size = new System.Drawing.Size(121, 29);
+            this.process.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.process.TabIndex = 2;
+            this.process.SelectedIndexChanged += new System.EventHandler(this.process_SelectedIndexChanged);
+            // 
+            // labelX3
+            // 
+            this.labelX3.AutoSize = true;
+            // 
+            // 
+            // 
+            this.labelX3.BackgroundStyle.Class = "";
+            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX3.Location = new System.Drawing.Point(241, 13);
+            this.labelX3.Name = "labelX3";
+            this.labelX3.Size = new System.Drawing.Size(90, 26);
+            this.labelX3.TabIndex = 3;
+            this.labelX3.Text = "申档进度：";
+            // 
+            // labelX2
+            // 
+            this.labelX2.AutoSize = true;
+            // 
+            // 
+            // 
+            this.labelX2.BackgroundStyle.Class = "";
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX2.Location = new System.Drawing.Point(106, 13);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(40, 26);
+            this.labelX2.TabIndex = 1;
+            this.labelX2.Text = "辽B.";
+            // 
+            // labelX1
+            // 
+            this.labelX1.AutoSize = true;
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.Class = "";
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX1.Location = new System.Drawing.Point(22, 13);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(90, 26);
+            this.labelX1.TabIndex = 0;
+            this.labelX1.Text = "号牌号码：";
+            // 
             // dataGridView
             // 
             this.dataGridView.AllowUserToAddRows = false;
@@ -99,115 +218,6 @@
             this.dataGridView.TabIndex = 2;
             this.dataGridView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView_CellFormatting);
             this.dataGridView.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dataGridView_RowPostPaint);
-            // 
-            // labelX1
-            // 
-            this.labelX1.AutoSize = true;
-            // 
-            // 
-            // 
-            this.labelX1.BackgroundStyle.Class = "";
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(22, 20);
-            this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(68, 18);
-            this.labelX1.TabIndex = 0;
-            this.labelX1.Text = "号牌号码：";
-            // 
-            // labelX2
-            // 
-            this.labelX2.AutoSize = true;
-            // 
-            // 
-            // 
-            this.labelX2.BackgroundStyle.Class = "";
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(83, 20);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(31, 18);
-            this.labelX2.TabIndex = 1;
-            this.labelX2.Text = "辽B.";
-            // 
-            // labelX3
-            // 
-            this.labelX3.AutoSize = true;
-            // 
-            // 
-            // 
-            this.labelX3.BackgroundStyle.Class = "";
-            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(241, 20);
-            this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(68, 18);
-            this.labelX3.TabIndex = 3;
-            this.labelX3.Text = "申档进度：";
-            // 
-            // process
-            // 
-            this.process.DisplayMember = "Text";
-            this.process.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.process.FormattingEnabled = true;
-            this.process.ItemHeight = 15;
-            this.process.Location = new System.Drawing.Point(304, 19);
-            this.process.Name = "process";
-            this.process.Size = new System.Drawing.Size(121, 21);
-            this.process.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.process.TabIndex = 2;
-            this.process.SelectedIndexChanged += new System.EventHandler(this.process_SelectedIndexChanged);
-            // 
-            // labelX4
-            // 
-            this.labelX4.AutoSize = true;
-            // 
-            // 
-            // 
-            this.labelX4.BackgroundStyle.Class = "";
-            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(488, 20);
-            this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(68, 18);
-            this.labelX4.TabIndex = 5;
-            this.labelX4.Text = "退档原因：";
-            // 
-            // reason
-            // 
-            // 
-            // 
-            // 
-            this.reason.Border.Class = "TextBoxBorder";
-            this.reason.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.reason.Location = new System.Drawing.Point(549, 19);
-            this.reason.MaxLength = 99;
-            this.reason.Name = "reason";
-            this.reason.Size = new System.Drawing.Size(253, 21);
-            this.reason.TabIndex = 3;
-            // 
-            // saveBtn
-            // 
-            this.saveBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.saveBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.saveBtn.Location = new System.Drawing.Point(877, 19);
-            this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(75, 23);
-            this.saveBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.saveBtn.TabIndex = 7;
-            this.saveBtn.Text = "保存";
-            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
-            // 
-            // license
-            // 
-            // 
-            // 
-            // 
-            this.license.Border.Class = "TextBoxBorder";
-            this.license.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.license.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.license.Location = new System.Drawing.Point(108, 19);
-            this.license.MaxLength = 5;
-            this.license.Name = "license";
-            this.license.Size = new System.Drawing.Size(67, 21);
-            this.license.TabIndex = 1;
-            this.license.Leave += new System.EventHandler(this.license_Leave);
             // 
             // Column1
             // 

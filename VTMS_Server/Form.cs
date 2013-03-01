@@ -15,6 +15,8 @@ namespace VTMS_Server
     {
         System.Timers.Timer timer = new System.Timers.Timer(ONE_HOUR);
 
+        string homePath = new System.IO.DirectoryInfo(".").FullName;
+
         const int ONE_MINUTE = 1000 * 60;
         const int FIVE_MINUTES = 5 * ONE_MINUTE;
         const int TEN_MINUTES = 10 * ONE_MINUTE;
@@ -25,7 +27,8 @@ namespace VTMS_Server
         public Form()
         {
             InitializeComponent();
-            this.timeSetup.DataSource = new string[]{"每5分钟","每10分钟","每30分钟","每1小时"};
+            //this.timeSetup.DataSource = new string[]{"每5分钟","每10分钟","每30分钟","每1小时"};
+            //this.timeSetup.Text = "每1小时";
 
             timer.Elapsed += new System.Timers.ElapsedEventHandler(timeOut);
             timer.AutoReset = true;
@@ -90,15 +93,7 @@ namespace VTMS_Server
         /// <param name="e"></param>
         private void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //注意判断关闭事件Reason来源于窗体按钮，否则用菜单退出时无法退出!
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                e.Cancel = true;    //取消"关闭窗口"事件
-                this.WindowState = FormWindowState.Minimized;    //使关闭时窗口向右下角缩小的效果
-                this.notifyIcon.Visible = true;
-                this.Hide();
-                return;
-            }
+
         }
 
         /// <summary>
@@ -110,7 +105,6 @@ namespace VTMS_Server
         {
             if (this.restorePath.Text.Length > 0)
             {
-                string homePath = @"C:\Program Files\MySQL\MySQL Server 5.1\bin\";
                 string command = @"mysql -uroot -pjilichao < " + this.restorePath.Text;
 
                 StartCmd(homePath, command);
@@ -153,38 +147,40 @@ namespace VTMS_Server
         /// <param name="e"></param>
         private void confirmBtn_Click(object sender, EventArgs e)
         {
-            if (this.timeSetup.Text == "每5分钟")
-            {
-                timer.Interval = FIVE_MINUTES;
-            }
-            else if (this.timeSetup.Text == "每10分钟")
-            {
-                timer.Interval = TEN_MINUTES;
-            } if (this.timeSetup.Text == "每30分钟")
-            {
-                timer.Interval = THIRTY_MINUTES;
-            } if (this.timeSetup.Text == "每1小时")
-            {
-                timer.Interval = ONE_HOUR;
-            } 
+            //if (this.timeSetup.Text == "每5分钟")
+            //{
+            //    timer.Interval = FIVE_MINUTES;
+            //}
+            //else if (this.timeSetup.Text == "每10分钟")
+            //{
+            //    timer.Interval = TEN_MINUTES;
+            //} if (this.timeSetup.Text == "每30分钟")
+            //{
+            //    timer.Interval = THIRTY_MINUTES;
+            //} if (this.timeSetup.Text == "每1小时")
+            //{
+            //    timer.Interval = ONE_HOUR;
+            //} 
         }
         public void timeOut(object source, System.Timers.ElapsedEventArgs e)
         {
             if (this.backupPath.Text.Length > 0)
             {
-                string homePath = @"C:\Program Files\MySQL\MySQL Server 5.1\bin\";
-                string command = @"mysqldump -uroot -pjilichao --default-character-set=utf8 --opt --extended-insert=false --triggers -R --hex-blob vtms > " + this.backupPath.Text + "/vtms.sql";
+                string command = "mysqldump -uroot -pjilichao --default-character-set=utf8 --opt --extended-insert=false --quick --triggers -R --hex-blob vtms > \"" + this.backupPath.Text + "\"\\vtms.sql";
 
                 StartCmd(homePath, command);
             }
         }
-
+        /// <summary>
+        /// 备份按钮点击
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void backupBtn_Click(object sender, EventArgs e)
         {
             if (this.backupPath.Text.Length > 0)
             {
-                string homePath = @"C:\Program Files\MySQL\MySQL Server 5.1\bin\";
-                string command = @"mysqldump -uroot -pjilichao --default-character-set=utf8 --opt --extended-insert=false --triggers -R --hex-blob vtms > " + this.backupPath.Text + "/vtms.sql";
+                string command = "mysqldump -uroot -pjilichao --default-character-set=utf8 --opt --extended-insert=false --quick --triggers -R --hex-blob vtms > \"" + this.backupPath.Text + "\"\\vtms.sql";
 
                 StartCmd(homePath, command);
             }

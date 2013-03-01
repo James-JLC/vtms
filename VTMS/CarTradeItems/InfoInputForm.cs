@@ -493,11 +493,18 @@ namespace VTMS.CarTradeItems
 
                 this.isUpdate = true;
 
-                SetVehicleInfo(vehicle);
+                try
+                {
+                    SetVehicleInfo(vehicle);
+                }
+                catch
+                {
+                    MessageUtil.ShowWarning("发生错误！");
+                }
 
-                this.SetOriginCustomer(CustomerDao.GetById(vehicle.OriginCustomer.Id));
+                this.SetOriginCustomer(vehicle.OriginCustomer);
 
-                this.SetCurrentCustomer(CustomerDao.GetById(vehicle.CurrentCustomer.Id));
+                this.SetCurrentCustomer(vehicle.CurrentCustomer);
             }
             else
             {

@@ -53,7 +53,7 @@ namespace VTMS.Statistics
 
                 string v_Line = v_LineNo.ToString();
 
-                e.Graphics.DrawString(v_Line, e.InheritedRowStyle.Font, v_SolidBrush, e.RowBounds.Location.X + 15, e.RowBounds.Location.Y + 5);
+                e.Graphics.DrawString(v_Line, e.InheritedRowStyle.Font, v_SolidBrush, e.RowBounds.Location.X + 15, e.RowBounds.Location.Y + 1);
 
             }
             catch (Exception ex)

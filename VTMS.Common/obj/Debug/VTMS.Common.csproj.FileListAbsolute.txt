@@ -13,3 +13,8 @@ D:\VTMS\VTMS.Common\bin\Debug\VTMS.Common.pdb
 D:\VTMS\VTMS.Common\obj\Debug\ResolveAssemblyReference.cache
 D:\VTMS\VTMS.Common\obj\Debug\VTMS.Common.dll
 D:\VTMS\VTMS.Common\obj\Debug\VTMS.Common.pdb
+C:\Users\IBM_ADMIN\vtms\VTMS.Common\bin\Debug\VTMS.Common.dll
+C:\Users\IBM_ADMIN\vtms\VTMS.Common\bin\Debug\VTMS.Common.pdb
+C:\Users\IBM_ADMIN\vtms\VTMS.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\vtms\VTMS.Common\obj\Debug\VTMS.Common.dll
+C:\Users\IBM_ADMIN\vtms\VTMS.Common\obj\Debug\VTMS.Common.pdb

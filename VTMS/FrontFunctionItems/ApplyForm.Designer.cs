@@ -145,10 +145,11 @@
             // 
             this.ownerAddress.Border.Class = "TextBoxBorder";
             this.ownerAddress.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ownerAddress.Location = new System.Drawing.Point(85, 43);
+            this.ownerAddress.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ownerAddress.Location = new System.Drawing.Point(108, 40);
             this.ownerAddress.MaxLength = 100;
             this.ownerAddress.Name = "ownerAddress";
-            this.ownerAddress.Size = new System.Drawing.Size(529, 21);
+            this.ownerAddress.Size = new System.Drawing.Size(529, 29);
             this.ownerAddress.TabIndex = 11;
             // 
             // ownerMobile
@@ -160,10 +161,11 @@
             this.ownerMobile.Border.Class = "TextBoxBorder";
             this.ownerMobile.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ownerMobile.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Phone;
-            this.ownerMobile.Location = new System.Drawing.Point(461, 109);
+            this.ownerMobile.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ownerMobile.Location = new System.Drawing.Point(485, 106);
             this.ownerMobile.MaxLength = 11;
             this.ownerMobile.Name = "ownerMobile";
-            this.ownerMobile.Size = new System.Drawing.Size(152, 21);
+            this.ownerMobile.Size = new System.Drawing.Size(152, 29);
             this.ownerMobile.TabIndex = 15;
             // 
             // ownerEmail
@@ -175,11 +177,12 @@
             this.ownerEmail.Border.Class = "TextBoxBorder";
             this.ownerEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ownerEmail.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Email;
-            this.ownerEmail.Location = new System.Drawing.Point(85, 109);
+            this.ownerEmail.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ownerEmail.Location = new System.Drawing.Point(108, 106);
             this.ownerEmail.MaxLength = 50;
             this.ownerEmail.Name = "ownerEmail";
             this.ownerEmail.NotNull = false;
-            this.ownerEmail.Size = new System.Drawing.Size(152, 21);
+            this.ownerEmail.Size = new System.Drawing.Size(152, 29);
             this.ownerEmail.TabIndex = 14;
             // 
             // ownerPhone
@@ -191,11 +194,12 @@
             this.ownerPhone.Border.Class = "TextBoxBorder";
             this.ownerPhone.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ownerPhone.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Phone;
-            this.ownerPhone.Location = new System.Drawing.Point(461, 76);
+            this.ownerPhone.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ownerPhone.Location = new System.Drawing.Point(485, 73);
             this.ownerPhone.MaxLength = 20;
             this.ownerPhone.Name = "ownerPhone";
             this.ownerPhone.NotNull = false;
-            this.ownerPhone.Size = new System.Drawing.Size(152, 21);
+            this.ownerPhone.Size = new System.Drawing.Size(152, 29);
             this.ownerPhone.TabIndex = 13;
             // 
             // ownerPostcode
@@ -207,11 +211,12 @@
             this.ownerPostcode.Border.Class = "TextBoxBorder";
             this.ownerPostcode.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ownerPostcode.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Zip;
-            this.ownerPostcode.Location = new System.Drawing.Point(85, 76);
+            this.ownerPostcode.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ownerPostcode.Location = new System.Drawing.Point(108, 73);
             this.ownerPostcode.MaxLength = 6;
             this.ownerPostcode.Name = "ownerPostcode";
             this.ownerPostcode.NotNull = false;
-            this.ownerPostcode.Size = new System.Drawing.Size(152, 21);
+            this.ownerPostcode.Size = new System.Drawing.Size(152, 29);
             this.ownerPostcode.TabIndex = 12;
             // 
             // ownerName
@@ -222,10 +227,11 @@
             // 
             this.ownerName.Border.Class = "TextBoxBorder";
             this.ownerName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ownerName.Location = new System.Drawing.Point(85, 10);
+            this.ownerName.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ownerName.Location = new System.Drawing.Point(108, 7);
             this.ownerName.MaxLength = 100;
             this.ownerName.Name = "ownerName";
-            this.ownerName.Size = new System.Drawing.Size(528, 21);
+            this.ownerName.Size = new System.Drawing.Size(528, 29);
             this.ownerName.TabIndex = 10;
             // 
             // labelX23
@@ -237,9 +243,10 @@
             // 
             this.labelX23.BackgroundStyle.Class = "";
             this.labelX23.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX23.Location = new System.Drawing.Point(380, 110);
+            this.labelX23.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX23.Location = new System.Drawing.Point(399, 110);
             this.labelX23.Name = "labelX23";
-            this.labelX23.Size = new System.Drawing.Size(68, 18);
+            this.labelX23.Size = new System.Drawing.Size(90, 26);
             this.labelX23.TabIndex = 5;
             this.labelX23.Text = "移动电话：";
             // 
@@ -252,9 +259,10 @@
             // 
             this.labelX22.BackgroundStyle.Class = "";
             this.labelX22.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX22.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX22.Location = new System.Drawing.Point(14, 110);
             this.labelX22.Name = "labelX22";
-            this.labelX22.Size = new System.Drawing.Size(68, 18);
+            this.labelX22.Size = new System.Drawing.Size(90, 26);
             this.labelX22.TabIndex = 4;
             this.labelX22.Text = "电子信箱：";
             // 
@@ -267,9 +275,10 @@
             // 
             this.labelX21.BackgroundStyle.Class = "";
             this.labelX21.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX21.Location = new System.Drawing.Point(380, 77);
+            this.labelX21.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX21.Location = new System.Drawing.Point(399, 74);
             this.labelX21.Name = "labelX21";
-            this.labelX21.Size = new System.Drawing.Size(68, 18);
+            this.labelX21.Size = new System.Drawing.Size(90, 26);
             this.labelX21.TabIndex = 3;
             this.labelX21.Text = "固定电话：";
             // 
@@ -335,9 +344,10 @@
             // 
             this.labelX20.BackgroundStyle.Class = "";
             this.labelX20.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX20.Location = new System.Drawing.Point(14, 77);
+            this.labelX20.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX20.Location = new System.Drawing.Point(14, 74);
             this.labelX20.Name = "labelX20";
-            this.labelX20.Size = new System.Drawing.Size(68, 18);
+            this.labelX20.Size = new System.Drawing.Size(90, 26);
             this.labelX20.TabIndex = 2;
             this.labelX20.Text = "邮政编码：";
             // 
@@ -350,9 +360,10 @@
             // 
             this.labelX19.BackgroundStyle.Class = "";
             this.labelX19.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX19.Location = new System.Drawing.Point(14, 44);
+            this.labelX19.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX19.Location = new System.Drawing.Point(14, 41);
             this.labelX19.Name = "labelX19";
-            this.labelX19.Size = new System.Drawing.Size(68, 18);
+            this.labelX19.Size = new System.Drawing.Size(90, 26);
             this.labelX19.TabIndex = 1;
             this.labelX19.Text = "邮寄地址：";
             // 
@@ -365,9 +376,10 @@
             // 
             this.labelX18.BackgroundStyle.Class = "";
             this.labelX18.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX18.Location = new System.Drawing.Point(14, 11);
+            this.labelX18.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX18.Location = new System.Drawing.Point(14, 8);
             this.labelX18.Name = "labelX18";
-            this.labelX18.Size = new System.Drawing.Size(74, 18);
+            this.labelX18.Size = new System.Drawing.Size(98, 26);
             this.labelX18.TabIndex = 0;
             this.labelX18.Text = "姓名/名称：";
             // 
@@ -375,14 +387,15 @@
             // 
             this.plateChange.DisplayMember = "Text";
             this.plateChange.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.plateChange.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.plateChange.FormattingEnabled = true;
-            this.plateChange.ItemHeight = 15;
+            this.plateChange.ItemHeight = 23;
             this.plateChange.Items.AddRange(new object[] {
             this.comboItem19,
             this.comboItem20});
-            this.plateChange.Location = new System.Drawing.Point(85, 44);
+            this.plateChange.Location = new System.Drawing.Point(85, 41);
             this.plateChange.Name = "plateChange";
-            this.plateChange.Size = new System.Drawing.Size(215, 21);
+            this.plateChange.Size = new System.Drawing.Size(215, 29);
             this.plateChange.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.plateChange.TabIndex = 5;
             // 
@@ -401,10 +414,11 @@
             // 
             this.signChange.Border.Class = "TextBoxBorder";
             this.signChange.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.signChange.Location = new System.Drawing.Point(97, 75);
+            this.signChange.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.signChange.Location = new System.Drawing.Point(97, 72);
             this.signChange.MaxLength = 50;
             this.signChange.Name = "signChange";
-            this.signChange.Size = new System.Drawing.Size(215, 21);
+            this.signChange.Size = new System.Drawing.Size(215, 29);
             this.signChange.TabIndex = 13;
             // 
             // labelX15
@@ -415,9 +429,10 @@
             // 
             this.labelX15.BackgroundStyle.Class = "";
             this.labelX15.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX15.Location = new System.Drawing.Point(14, 45);
+            this.labelX15.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX15.Location = new System.Drawing.Point(14, 42);
             this.labelX15.Name = "labelX15";
-            this.labelX15.Size = new System.Drawing.Size(44, 18);
+            this.labelX15.Size = new System.Drawing.Size(57, 26);
             this.labelX15.TabIndex = 2;
             this.labelX15.Text = "换领：";
             // 
@@ -429,9 +444,10 @@
             // 
             this.labelX29.BackgroundStyle.Class = "";
             this.labelX29.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX29.Location = new System.Drawing.Point(17, 76);
+            this.labelX29.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX29.Location = new System.Drawing.Point(17, 73);
             this.labelX29.Name = "labelX29";
-            this.labelX29.Size = new System.Drawing.Size(44, 18);
+            this.labelX29.Size = new System.Drawing.Size(57, 26);
             this.labelX29.TabIndex = 4;
             this.labelX29.Text = "换领：";
             // 
@@ -439,14 +455,15 @@
             // 
             this.signRenew.DisplayMember = "Text";
             this.signRenew.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.signRenew.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.signRenew.FormattingEnabled = true;
-            this.signRenew.ItemHeight = 15;
+            this.signRenew.ItemHeight = 23;
             this.signRenew.Items.AddRange(new object[] {
             this.comboItem30,
             this.comboItem31});
-            this.signRenew.Location = new System.Drawing.Point(97, 41);
+            this.signRenew.Location = new System.Drawing.Point(97, 38);
             this.signRenew.Name = "signRenew";
-            this.signRenew.Size = new System.Drawing.Size(215, 21);
+            this.signRenew.Size = new System.Drawing.Size(215, 29);
             this.signRenew.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.signRenew.TabIndex = 12;
             // 
@@ -466,9 +483,10 @@
             // 
             this.labelX28.BackgroundStyle.Class = "";
             this.labelX28.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX28.Location = new System.Drawing.Point(17, 42);
+            this.labelX28.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX28.Location = new System.Drawing.Point(17, 39);
             this.labelX28.Name = "labelX28";
-            this.labelX28.Size = new System.Drawing.Size(44, 18);
+            this.labelX28.Size = new System.Drawing.Size(57, 26);
             this.labelX28.TabIndex = 2;
             this.labelX28.Text = "补领：";
             // 
@@ -505,10 +523,11 @@
             this.license.Border.Class = "TextBoxBorder";
             this.license.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.license.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.license.Location = new System.Drawing.Point(645, 12);
+            this.license.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.license.Location = new System.Drawing.Point(682, 9);
             this.license.MaxLength = 5;
             this.license.Name = "license";
-            this.license.Size = new System.Drawing.Size(77, 21);
+            this.license.Size = new System.Drawing.Size(89, 29);
             this.license.TabIndex = 3;
             // 
             // category
@@ -517,8 +536,9 @@
             this.category.DisplayMember = "Text";
             this.category.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.category.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.category.FormattingEnabled = true;
-            this.category.ItemHeight = 15;
+            this.category.ItemHeight = 23;
             this.category.Items.AddRange(new object[] {
             this.comboItem1,
             this.comboItem2,
@@ -534,9 +554,9 @@
             this.comboItem12,
             this.comboItem13,
             this.comboItem14});
-            this.category.Location = new System.Drawing.Point(344, 12);
+            this.category.Location = new System.Drawing.Point(364, 9);
             this.category.Name = "category";
-            this.category.Size = new System.Drawing.Size(142, 21);
+            this.category.Size = new System.Drawing.Size(142, 29);
             this.category.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.category.TabIndex = 2;
             // 
@@ -605,11 +625,12 @@
             // 
             this.labelX4.BackgroundStyle.Class = "";
             this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(621, 13);
+            this.labelX4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX4.Location = new System.Drawing.Point(641, 10);
             this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(25, 18);
+            this.labelX4.Size = new System.Drawing.Size(40, 26);
             this.labelX4.TabIndex = 5;
-            this.labelX4.Text = "辽B";
+            this.labelX4.Text = "辽B.";
             // 
             // labelX3
             // 
@@ -620,9 +641,10 @@
             // 
             this.labelX3.BackgroundStyle.Class = "";
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(560, 13);
+            this.labelX3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX3.Location = new System.Drawing.Point(560, 10);
             this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(68, 18);
+            this.labelX3.Size = new System.Drawing.Size(90, 26);
             this.labelX3.TabIndex = 4;
             this.labelX3.Text = "号牌号码：";
             // 
@@ -635,9 +657,10 @@
             // 
             this.labelX2.BackgroundStyle.Class = "";
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(281, 13);
+            this.labelX2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX2.Location = new System.Drawing.Point(281, 10);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(68, 18);
+            this.labelX2.Size = new System.Drawing.Size(90, 26);
             this.labelX2.TabIndex = 2;
             this.labelX2.Text = "号牌种类：";
             // 
@@ -649,10 +672,11 @@
             // 
             this.serial.Border.Class = "TextBoxBorder";
             this.serial.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.serial.Location = new System.Drawing.Point(85, 12);
+            this.serial.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.serial.Location = new System.Drawing.Point(85, 9);
             this.serial.MaxLength = 11;
             this.serial.Name = "serial";
-            this.serial.Size = new System.Drawing.Size(152, 21);
+            this.serial.Size = new System.Drawing.Size(152, 29);
             this.serial.TabIndex = 1;
             this.serial.Leave += new System.EventHandler(this.serial_Leave);
             // 
@@ -665,9 +689,10 @@
             // 
             this.labelX1.BackgroundStyle.Class = "";
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(14, 13);
+            this.labelX1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX1.Location = new System.Drawing.Point(14, 10);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(56, 18);
+            this.labelX1.Size = new System.Drawing.Size(74, 26);
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "流水号：";
             // 
@@ -676,16 +701,17 @@
             this.signApply.DisplayMember = "Text";
             this.signApply.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.signApply.DropDownWidth = 200;
+            this.signApply.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.signApply.FormattingEnabled = true;
-            this.signApply.ItemHeight = 15;
+            this.signApply.ItemHeight = 23;
             this.signApply.Items.AddRange(new object[] {
             this.comboItem26,
             this.comboItem27,
             this.comboItem28,
             this.comboItem29});
-            this.signApply.Location = new System.Drawing.Point(97, 7);
+            this.signApply.Location = new System.Drawing.Point(97, 4);
             this.signApply.Name = "signApply";
-            this.signApply.Size = new System.Drawing.Size(215, 21);
+            this.signApply.Size = new System.Drawing.Size(215, 29);
             this.signApply.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.signApply.TabIndex = 11;
             // 
@@ -713,9 +739,10 @@
             // 
             this.labelX27.BackgroundStyle.Class = "";
             this.labelX27.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX27.Location = new System.Drawing.Point(17, 8);
+            this.labelX27.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX27.Location = new System.Drawing.Point(17, 5);
             this.labelX27.Name = "labelX27";
-            this.labelX27.Size = new System.Drawing.Size(44, 18);
+            this.labelX27.Size = new System.Drawing.Size(57, 26);
             this.labelX27.TabIndex = 0;
             this.labelX27.Text = "申请：";
             // 
@@ -727,10 +754,11 @@
             // 
             this.agentName.Border.Class = "TextBoxBorder";
             this.agentName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.agentName.Location = new System.Drawing.Point(85, 2);
+            this.agentName.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.agentName.Location = new System.Drawing.Point(113, 2);
             this.agentName.MaxLength = 50;
             this.agentName.Name = "agentName";
-            this.agentName.Size = new System.Drawing.Size(152, 21);
+            this.agentName.Size = new System.Drawing.Size(152, 29);
             this.agentName.TabIndex = 18;
             // 
             // handlerPhone
@@ -742,11 +770,12 @@
             this.handlerPhone.Border.Class = "TextBoxBorder";
             this.handlerPhone.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.handlerPhone.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Phone;
-            this.handlerPhone.Location = new System.Drawing.Point(349, 71);
+            this.handlerPhone.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.handlerPhone.Location = new System.Drawing.Point(396, 71);
             this.handlerPhone.MaxLength = 15;
             this.handlerPhone.Name = "handlerPhone";
             this.handlerPhone.NotNull = false;
-            this.handlerPhone.Size = new System.Drawing.Size(128, 21);
+            this.handlerPhone.Size = new System.Drawing.Size(128, 29);
             this.handlerPhone.TabIndex = 24;
             // 
             // agentEmail
@@ -758,11 +787,12 @@
             this.agentEmail.Border.Class = "TextBoxBorder";
             this.agentEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.agentEmail.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Email;
-            this.agentEmail.Location = new System.Drawing.Point(598, 36);
+            this.agentEmail.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.agentEmail.Location = new System.Drawing.Point(618, 36);
             this.agentEmail.MaxLength = 50;
             this.agentEmail.Name = "agentEmail";
             this.agentEmail.NotNull = false;
-            this.agentEmail.Size = new System.Drawing.Size(146, 21);
+            this.agentEmail.Size = new System.Drawing.Size(146, 29);
             this.agentEmail.TabIndex = 22;
             // 
             // agentPostcode
@@ -774,11 +804,12 @@
             this.agentPostcode.Border.Class = "TextBoxBorder";
             this.agentPostcode.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.agentPostcode.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Zip;
-            this.agentPostcode.Location = new System.Drawing.Point(598, 2);
+            this.agentPostcode.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.agentPostcode.Location = new System.Drawing.Point(618, 2);
             this.agentPostcode.MaxLength = 6;
             this.agentPostcode.Name = "agentPostcode";
             this.agentPostcode.NotNull = false;
-            this.agentPostcode.Size = new System.Drawing.Size(146, 21);
+            this.agentPostcode.Size = new System.Drawing.Size(146, 29);
             this.agentPostcode.TabIndex = 20;
             // 
             // agentPhone
@@ -790,10 +821,11 @@
             this.agentPhone.Border.Class = "TextBoxBorder";
             this.agentPhone.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.agentPhone.ControlType = VTMS.ControlLib.TextBoxExt.RegexType.Phone;
-            this.agentPhone.Location = new System.Drawing.Point(349, 2);
+            this.agentPhone.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.agentPhone.Location = new System.Drawing.Point(396, 2);
             this.agentPhone.MaxLength = 15;
             this.agentPhone.Name = "agentPhone";
-            this.agentPhone.Size = new System.Drawing.Size(128, 21);
+            this.agentPhone.Size = new System.Drawing.Size(128, 29);
             this.agentPhone.TabIndex = 19;
             // 
             // handlerName
@@ -804,10 +836,11 @@
             // 
             this.handlerName.Border.Class = "TextBoxBorder";
             this.handlerName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.handlerName.Location = new System.Drawing.Point(85, 71);
+            this.handlerName.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.handlerName.Location = new System.Drawing.Point(113, 71);
             this.handlerName.MaxLength = 10;
             this.handlerName.Name = "handlerName";
-            this.handlerName.Size = new System.Drawing.Size(152, 21);
+            this.handlerName.Size = new System.Drawing.Size(152, 29);
             this.handlerName.TabIndex = 23;
             // 
             // panelEx4
@@ -834,10 +867,12 @@
             // 
             this.saveBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.saveBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.saveBtn.AutoSize = true;
             this.saveBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.saveBtn.Location = new System.Drawing.Point(520, 11);
+            this.saveBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.saveBtn.Location = new System.Drawing.Point(520, 6);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(75, 23);
+            this.saveBtn.Size = new System.Drawing.Size(75, 30);
             this.saveBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.saveBtn.TabIndex = 30;
             this.saveBtn.Text = "保存";
@@ -848,10 +883,12 @@
             // 
             this.printBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.printBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.printBtn.AutoSize = true;
             this.printBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.printBtn.Location = new System.Drawing.Point(711, 11);
+            this.printBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.printBtn.Location = new System.Drawing.Point(711, 6);
             this.printBtn.Name = "printBtn";
-            this.printBtn.Size = new System.Drawing.Size(75, 23);
+            this.printBtn.Size = new System.Drawing.Size(75, 30);
             this.printBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.printBtn.TabIndex = 26;
             this.printBtn.Text = "打印";
@@ -861,10 +898,12 @@
             // 
             this.clearBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.clearBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.clearBtn.AutoSize = true;
             this.clearBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.clearBtn.Location = new System.Drawing.Point(33, 11);
+            this.clearBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.clearBtn.Location = new System.Drawing.Point(33, 6);
             this.clearBtn.Name = "clearBtn";
-            this.clearBtn.Size = new System.Drawing.Size(75, 23);
+            this.clearBtn.Size = new System.Drawing.Size(75, 30);
             this.clearBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.clearBtn.TabIndex = 28;
             this.clearBtn.Text = "清空";
@@ -879,9 +918,10 @@
             // 
             this.labelX11.BackgroundStyle.Class = "";
             this.labelX11.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX11.Location = new System.Drawing.Point(251, 72);
+            this.labelX11.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX11.Location = new System.Drawing.Point(265, 72);
             this.labelX11.Name = "labelX11";
-            this.labelX11.Size = new System.Drawing.Size(105, 18);
+            this.labelX11.Size = new System.Drawing.Size(140, 26);
             this.labelX11.TabIndex = 10;
             this.labelX11.Text = "经办人联系电话：";
             // 
@@ -949,10 +989,11 @@
             // 
             this.agentAddress.Border.Class = "TextBoxBorder";
             this.agentAddress.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.agentAddress.Location = new System.Drawing.Point(85, 36);
+            this.agentAddress.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.agentAddress.Location = new System.Drawing.Point(113, 36);
             this.agentAddress.MaxLength = 100;
             this.agentAddress.Name = "agentAddress";
-            this.agentAddress.Size = new System.Drawing.Size(392, 21);
+            this.agentAddress.Size = new System.Drawing.Size(411, 29);
             this.agentAddress.TabIndex = 21;
             // 
             // labelX10
@@ -964,9 +1005,10 @@
             // 
             this.labelX10.BackgroundStyle.Class = "";
             this.labelX10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX10.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX10.Location = new System.Drawing.Point(14, 72);
             this.labelX10.Name = "labelX10";
-            this.labelX10.Size = new System.Drawing.Size(81, 18);
+            this.labelX10.Size = new System.Drawing.Size(107, 26);
             this.labelX10.TabIndex = 8;
             this.labelX10.Text = "经办人姓名：";
             // 
@@ -979,9 +1021,10 @@
             // 
             this.labelX9.BackgroundStyle.Class = "";
             this.labelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX9.Location = new System.Drawing.Point(522, 37);
+            this.labelX9.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX9.Location = new System.Drawing.Point(534, 37);
             this.labelX9.Name = "labelX9";
-            this.labelX9.Size = new System.Drawing.Size(68, 18);
+            this.labelX9.Size = new System.Drawing.Size(90, 26);
             this.labelX9.TabIndex = 7;
             this.labelX9.Text = "电子信箱：";
             // 
@@ -994,9 +1037,10 @@
             // 
             this.labelX8.BackgroundStyle.Class = "";
             this.labelX8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX8.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX8.Location = new System.Drawing.Point(14, 37);
             this.labelX8.Name = "labelX8";
-            this.labelX8.Size = new System.Drawing.Size(68, 18);
+            this.labelX8.Size = new System.Drawing.Size(90, 26);
             this.labelX8.TabIndex = 6;
             this.labelX8.Text = "邮寄地址：";
             // 
@@ -1009,9 +1053,10 @@
             // 
             this.labelX7.BackgroundStyle.Class = "";
             this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX7.Location = new System.Drawing.Point(522, 3);
+            this.labelX7.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX7.Location = new System.Drawing.Point(534, 3);
             this.labelX7.Name = "labelX7";
-            this.labelX7.Size = new System.Drawing.Size(68, 18);
+            this.labelX7.Size = new System.Drawing.Size(90, 26);
             this.labelX7.TabIndex = 4;
             this.labelX7.Text = "邮政编码：";
             // 
@@ -1024,9 +1069,10 @@
             // 
             this.labelX6.BackgroundStyle.Class = "";
             this.labelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX6.Location = new System.Drawing.Point(288, 3);
+            this.labelX6.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX6.Location = new System.Drawing.Point(315, 3);
             this.labelX6.Name = "labelX6";
-            this.labelX6.Size = new System.Drawing.Size(68, 18);
+            this.labelX6.Size = new System.Drawing.Size(90, 26);
             this.labelX6.TabIndex = 2;
             this.labelX6.Text = "联系电话：";
             // 
@@ -1039,9 +1085,10 @@
             // 
             this.labelX5.BackgroundStyle.Class = "";
             this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX5.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX5.Location = new System.Drawing.Point(14, 3);
             this.labelX5.Name = "labelX5";
-            this.labelX5.Size = new System.Drawing.Size(44, 18);
+            this.labelX5.Size = new System.Drawing.Size(57, 26);
             this.labelX5.TabIndex = 0;
             this.labelX5.Text = "姓名：";
             // 
@@ -1100,9 +1147,10 @@
             // 
             this.labelX14.BackgroundStyle.Class = "";
             this.labelX14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX14.Location = new System.Drawing.Point(14, 8);
+            this.labelX14.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX14.Location = new System.Drawing.Point(14, 5);
             this.labelX14.Name = "labelX14";
-            this.labelX14.Size = new System.Drawing.Size(44, 18);
+            this.labelX14.Size = new System.Drawing.Size(57, 26);
             this.labelX14.TabIndex = 0;
             this.labelX14.Text = "补领：";
             // 
@@ -1185,10 +1233,11 @@
             // 
             this.licenseChange.Border.Class = "TextBoxBorder";
             this.licenseChange.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.licenseChange.Location = new System.Drawing.Point(85, 76);
+            this.licenseChange.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.licenseChange.Location = new System.Drawing.Point(85, 72);
             this.licenseChange.MaxLength = 50;
             this.licenseChange.Name = "licenseChange";
-            this.licenseChange.Size = new System.Drawing.Size(215, 21);
+            this.licenseChange.Size = new System.Drawing.Size(215, 29);
             this.licenseChange.TabIndex = 10;
             // 
             // labelX26
@@ -1199,9 +1248,10 @@
             // 
             this.labelX26.BackgroundStyle.Class = "";
             this.labelX26.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX26.Location = new System.Drawing.Point(14, 77);
+            this.labelX26.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX26.Location = new System.Drawing.Point(14, 73);
             this.labelX26.Name = "labelX26";
-            this.labelX26.Size = new System.Drawing.Size(44, 18);
+            this.labelX26.Size = new System.Drawing.Size(57, 26);
             this.labelX26.TabIndex = 4;
             this.labelX26.Text = "换领：";
             // 
@@ -1209,15 +1259,16 @@
             // 
             this.licenseRenew.DisplayMember = "Text";
             this.licenseRenew.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.licenseRenew.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.licenseRenew.FormattingEnabled = true;
-            this.licenseRenew.ItemHeight = 15;
+            this.licenseRenew.ItemHeight = 23;
             this.licenseRenew.Items.AddRange(new object[] {
             this.comboItem23,
             this.comboItem24,
             this.comboItem25});
-            this.licenseRenew.Location = new System.Drawing.Point(85, 41);
+            this.licenseRenew.Location = new System.Drawing.Point(85, 37);
             this.licenseRenew.Name = "licenseRenew";
-            this.licenseRenew.Size = new System.Drawing.Size(215, 21);
+            this.licenseRenew.Size = new System.Drawing.Size(215, 29);
             this.licenseRenew.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.licenseRenew.TabIndex = 9;
             // 
@@ -1241,9 +1292,10 @@
             // 
             this.labelX25.BackgroundStyle.Class = "";
             this.labelX25.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX25.Location = new System.Drawing.Point(14, 42);
+            this.labelX25.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX25.Location = new System.Drawing.Point(14, 38);
             this.labelX25.Name = "labelX25";
-            this.labelX25.Size = new System.Drawing.Size(44, 18);
+            this.labelX25.Size = new System.Drawing.Size(57, 26);
             this.labelX25.TabIndex = 2;
             this.labelX25.Text = "补领：";
             // 
@@ -1254,10 +1306,11 @@
             // 
             this.licenseApply.Border.Class = "TextBoxBorder";
             this.licenseApply.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.licenseApply.Location = new System.Drawing.Point(85, 6);
+            this.licenseApply.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.licenseApply.Location = new System.Drawing.Point(85, 2);
             this.licenseApply.MaxLength = 50;
             this.licenseApply.Name = "licenseApply";
-            this.licenseApply.Size = new System.Drawing.Size(215, 21);
+            this.licenseApply.Size = new System.Drawing.Size(215, 29);
             this.licenseApply.TabIndex = 8;
             // 
             // labelX24
@@ -1268,9 +1321,10 @@
             // 
             this.labelX24.BackgroundStyle.Class = "";
             this.labelX24.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX24.Location = new System.Drawing.Point(14, 7);
+            this.labelX24.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX24.Location = new System.Drawing.Point(14, 3);
             this.labelX24.Name = "labelX24";
-            this.labelX24.Size = new System.Drawing.Size(44, 18);
+            this.labelX24.Size = new System.Drawing.Size(57, 26);
             this.labelX24.TabIndex = 0;
             this.labelX24.Text = "申领：";
             // 
@@ -1326,10 +1380,11 @@
             // 
             this.driverChange.Border.Class = "TextBoxBorder";
             this.driverChange.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.driverChange.Location = new System.Drawing.Point(98, 45);
+            this.driverChange.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.driverChange.Location = new System.Drawing.Point(98, 42);
             this.driverChange.MaxLength = 50;
             this.driverChange.Name = "driverChange";
-            this.driverChange.Size = new System.Drawing.Size(215, 21);
+            this.driverChange.Size = new System.Drawing.Size(215, 29);
             this.driverChange.TabIndex = 7;
             // 
             // labelX17
@@ -1340,9 +1395,10 @@
             // 
             this.labelX17.BackgroundStyle.Class = "";
             this.labelX17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX17.Location = new System.Drawing.Point(16, 46);
+            this.labelX17.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX17.Location = new System.Drawing.Point(16, 43);
             this.labelX17.Name = "labelX17";
-            this.labelX17.Size = new System.Drawing.Size(44, 18);
+            this.labelX17.Size = new System.Drawing.Size(57, 26);
             this.labelX17.TabIndex = 2;
             this.labelX17.Text = "换领：";
             // 
@@ -1350,14 +1406,15 @@
             // 
             this.driverRenew.DisplayMember = "Text";
             this.driverRenew.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.driverRenew.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.driverRenew.FormattingEnabled = true;
-            this.driverRenew.ItemHeight = 15;
+            this.driverRenew.ItemHeight = 23;
             this.driverRenew.Items.AddRange(new object[] {
             this.comboItem21,
             this.comboItem22});
-            this.driverRenew.Location = new System.Drawing.Point(98, 10);
+            this.driverRenew.Location = new System.Drawing.Point(98, 7);
             this.driverRenew.Name = "driverRenew";
-            this.driverRenew.Size = new System.Drawing.Size(215, 21);
+            this.driverRenew.Size = new System.Drawing.Size(215, 29);
             this.driverRenew.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.driverRenew.TabIndex = 6;
             // 
@@ -1377,9 +1434,10 @@
             // 
             this.labelX16.BackgroundStyle.Class = "";
             this.labelX16.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX16.Location = new System.Drawing.Point(16, 11);
+            this.labelX16.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelX16.Location = new System.Drawing.Point(16, 8);
             this.labelX16.Name = "labelX16";
-            this.labelX16.Size = new System.Drawing.Size(44, 18);
+            this.labelX16.Size = new System.Drawing.Size(57, 26);
             this.labelX16.TabIndex = 0;
             this.labelX16.Text = "补领：";
             // 
@@ -1432,16 +1490,17 @@
             // 
             this.plateRenew.DisplayMember = "Text";
             this.plateRenew.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.plateRenew.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.plateRenew.FormattingEnabled = true;
-            this.plateRenew.ItemHeight = 15;
+            this.plateRenew.ItemHeight = 23;
             this.plateRenew.Items.AddRange(new object[] {
             this.comboItem15,
             this.comboItem16,
             this.comboItem17,
             this.comboItem18});
-            this.plateRenew.Location = new System.Drawing.Point(85, 7);
+            this.plateRenew.Location = new System.Drawing.Point(85, 4);
             this.plateRenew.Name = "plateRenew";
-            this.plateRenew.Size = new System.Drawing.Size(215, 21);
+            this.plateRenew.Size = new System.Drawing.Size(215, 29);
             this.plateRenew.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.plateRenew.TabIndex = 4;
             // 
@@ -1493,6 +1552,7 @@
             this.panelEx3.ResumeLayout(false);
             this.panelEx3.PerformLayout();
             this.panelEx4.ResumeLayout(false);
+            this.panelEx4.PerformLayout();
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel1.PerformLayout();
             this.groupPanel5.ResumeLayout(false);

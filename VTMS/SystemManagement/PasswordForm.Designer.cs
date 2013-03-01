@@ -68,11 +68,13 @@
             // cancleBtn
             // 
             this.cancleBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.cancleBtn.AutoSize = true;
             this.cancleBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
             this.cancleBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.cancleBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cancleBtn.Location = new System.Drawing.Point(28, 135);
             this.cancleBtn.Name = "cancleBtn";
-            this.cancleBtn.Size = new System.Drawing.Size(75, 23);
+            this.cancleBtn.Size = new System.Drawing.Size(75, 30);
             this.cancleBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cancleBtn.TabIndex = 14;
             this.cancleBtn.Text = "取消";
@@ -85,11 +87,12 @@
             // 
             this.reCurrentPwd.Border.Class = "TextBoxBorder";
             this.reCurrentPwd.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.reCurrentPwd.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.reCurrentPwd.Location = new System.Drawing.Point(106, 96);
             this.reCurrentPwd.MaxLength = 20;
             this.reCurrentPwd.Name = "reCurrentPwd";
             this.reCurrentPwd.PasswordChar = '#';
-            this.reCurrentPwd.Size = new System.Drawing.Size(148, 21);
+            this.reCurrentPwd.Size = new System.Drawing.Size(148, 29);
             this.reCurrentPwd.TabIndex = 3;
             // 
             // currentPwd
@@ -99,11 +102,12 @@
             // 
             this.currentPwd.Border.Class = "TextBoxBorder";
             this.currentPwd.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.currentPwd.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.currentPwd.Location = new System.Drawing.Point(106, 56);
             this.currentPwd.MaxLength = 20;
             this.currentPwd.Name = "currentPwd";
             this.currentPwd.PasswordChar = '#';
-            this.currentPwd.Size = new System.Drawing.Size(148, 21);
+            this.currentPwd.Size = new System.Drawing.Size(148, 29);
             this.currentPwd.TabIndex = 2;
             // 
             // originPwd
@@ -113,20 +117,23 @@
             // 
             this.originPwd.Border.Class = "TextBoxBorder";
             this.originPwd.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.originPwd.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.originPwd.Location = new System.Drawing.Point(106, 19);
             this.originPwd.MaxLength = 20;
             this.originPwd.Name = "originPwd";
             this.originPwd.PasswordChar = '#';
-            this.originPwd.Size = new System.Drawing.Size(148, 21);
+            this.originPwd.Size = new System.Drawing.Size(148, 29);
             this.originPwd.TabIndex = 1;
             // 
             // confirmBtn
             // 
             this.confirmBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.confirmBtn.AutoSize = true;
             this.confirmBtn.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.confirmBtn.Location = new System.Drawing.Point(196, 135);
+            this.confirmBtn.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.confirmBtn.Location = new System.Drawing.Point(188, 135);
             this.confirmBtn.Name = "confirmBtn";
-            this.confirmBtn.Size = new System.Drawing.Size(75, 23);
+            this.confirmBtn.Size = new System.Drawing.Size(75, 30);
             this.confirmBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.confirmBtn.TabIndex = 13;
             this.confirmBtn.Text = "确定";
@@ -140,9 +147,10 @@
             // 
             this.labelX3.BackgroundStyle.Class = "";
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX3.Location = new System.Drawing.Point(28, 97);
             this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(44, 18);
+            this.labelX3.Size = new System.Drawing.Size(57, 26);
             this.labelX3.TabIndex = 9;
             this.labelX3.Text = "重复：";
             // 
@@ -154,9 +162,10 @@
             // 
             this.labelX2.BackgroundStyle.Class = "";
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX2.Location = new System.Drawing.Point(28, 57);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(56, 18);
+            this.labelX2.Size = new System.Drawing.Size(74, 26);
             this.labelX2.TabIndex = 8;
             this.labelX2.Text = "新密码：";
             // 
@@ -168,9 +177,10 @@
             // 
             this.labelX1.BackgroundStyle.Class = "";
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelX1.Location = new System.Drawing.Point(28, 17);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(56, 18);
+            this.labelX1.Size = new System.Drawing.Size(74, 26);
             this.labelX1.TabIndex = 7;
             this.labelX1.Text = "原密码：";
             // 

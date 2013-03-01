@@ -45,8 +45,6 @@ namespace VTMS.FilesItems
         }
         #endregion
 
-
-
         private void license_Leave(object sender, EventArgs e)
         {
             this.setContent();

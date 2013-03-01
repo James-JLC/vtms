@@ -48,6 +48,10 @@ namespace VTMS
                     this.theme.SubItems.Add(button);
                 }
             }
+            ColorPickerDropDown colorPickerCustomScheme = new ColorPickerDropDown("colorPickerCustomScheme", "自定义");
+            this.theme.SubItems.Add(colorPickerCustomScheme);
+            colorPickerCustomScheme.ColorPreview += new ColorPreviewEventHandler(colorPickerCustomScheme_ColorPreview);
+            colorPickerCustomScheme.SelectedColorChanged += new EventHandler(colorPickerCustomScheme_SelectedColorChanged);
             
             //初始化登录信息
             this.loginUser.Text = "登录用户："+LoginForm.user.UsersName;
@@ -57,7 +61,7 @@ namespace VTMS
 
         private void SetPrivilege()
         {
-            if (LoginForm.user.UsersId.Equals("admin"))
+            if (LoginForm.user.UsersId.ToLower().Equals("admin"))
             {
                 return;
             }
@@ -103,6 +107,16 @@ namespace VTMS
             source.Checked = true;
 
             this.Invalidate();
+        }
+        void colorPickerCustomScheme_SelectedColorChanged(object sender, EventArgs e)
+        {
+            ColorPickerDropDown cpcs = sender as ColorPickerDropDown;
+            this.styleManager.ManagerColorTint = cpcs.SelectedColor;
+        }
+
+        void colorPickerCustomScheme_ColorPreview(object sender, ColorPreviewEventArgs e)
+        {
+            this.styleManager.ManagerColorTint = e.Color;
         }
 
         /// <summary>
