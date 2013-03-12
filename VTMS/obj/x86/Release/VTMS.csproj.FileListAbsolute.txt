@@ -190,3 +190,4 @@ C:\Users\IBM_ADMIN\vtms\VTMS\obj\x86\Release\GenerateResource.read.1.tlog
 C:\Users\IBM_ADMIN\vtms\VTMS\obj\x86\Release\GenerateResource.write.1.tlog
 C:\Users\IBM_ADMIN\vtms\VTMS\obj\x86\Release\VTMS.exe
 C:\Users\IBM_ADMIN\vtms\VTMS\obj\x86\Release\VTMS.pdb
+C:\Users\IBM_ADMIN\vtms\VTMS\bin\Release\Mappings\Retrade.hbm.xml

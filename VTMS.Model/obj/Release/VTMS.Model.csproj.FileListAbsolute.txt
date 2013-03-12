@@ -42,3 +42,4 @@ C:\Users\IBM_ADMIN\vtms\VTMS.Model\bin\Release\VTMS.Common.pdb
 C:\Users\IBM_ADMIN\vtms\VTMS.Model\obj\Release\ResolveAssemblyReference.cache
 C:\Users\IBM_ADMIN\vtms\VTMS.Model\obj\Release\VTMS.Model.Entities.dll
 C:\Users\IBM_ADMIN\vtms\VTMS.Model\obj\Release\VTMS.Model.Entities.pdb
+C:\Users\IBM_ADMIN\vtms\VTMS.Model\bin\Release\Mappings\Retrade.hbm.xml

@@ -47,6 +47,7 @@
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\Privilege.cs" />
     <Compile Include="Entities\Register.cs" />
+    <Compile Include="Entities\Retrade.cs" />
     <Compile Include="Entities\Users.cs" />
     <Compile Include="Entities\Vehicle.cs" />
     <Compile Include="Entities\Vehicletype.cs" />
@@ -100,6 +101,11 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mappings\Archives.hbm.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Retrade.hbm.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

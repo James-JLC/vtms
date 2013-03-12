@@ -30,15 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
-            this.ribbonPanel5 = new DevComponents.DotNetBar.RibbonPanel();
-            this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
-            this.CompanyReport = new DevComponents.DotNetBar.ButtonItem();
-            this.VehicleReport = new DevComponents.DotNetBar.ButtonItem();
-            this.TradeDaily = new DevComponents.DotNetBar.ButtonItem();
-            this.TradeMonth = new DevComponents.DotNetBar.ButtonItem();
-            this.TradeYear = new DevComponents.DotNetBar.ButtonItem();
-            this.TaxReport = new DevComponents.DotNetBar.ButtonItem();
-            this.RegisterReport = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.Register = new DevComponents.DotNetBar.ButtonItem();
@@ -62,6 +53,15 @@
             this.Company = new DevComponents.DotNetBar.ButtonItem();
             this.VehicleType = new DevComponents.DotNetBar.ButtonItem();
             this.Password = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonPanel5 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
+            this.CompanyReport = new DevComponents.DotNetBar.ButtonItem();
+            this.VehicleReport = new DevComponents.DotNetBar.ButtonItem();
+            this.TradeDaily = new DevComponents.DotNetBar.ButtonItem();
+            this.TradeMonth = new DevComponents.DotNetBar.ButtonItem();
+            this.TradeYear = new DevComponents.DotNetBar.ButtonItem();
+            this.TaxReport = new DevComponents.DotNetBar.ButtonItem();
+            this.RegisterReport = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem3 = new DevComponents.DotNetBar.RibbonTabItem();
@@ -77,11 +77,11 @@
             this.version = new DevComponents.DotNetBar.LabelItem();
             this.labelItem1 = new DevComponents.DotNetBar.LabelItem();
             this.ribbonControl1.SuspendLayout();
-            this.ribbonPanel5.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
             this.ribbonPanel3.SuspendLayout();
             this.ribbonPanel4.SuspendLayout();
+            this.ribbonPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bar1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -131,130 +131,6 @@
             this.ribbonControl1.TabGroupHeight = 14;
             this.ribbonControl1.TabIndex = 0;
             this.ribbonControl1.Text = "ribbonControl1";
-            // 
-            // ribbonPanel5
-            // 
-            this.ribbonPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel5.Controls.Add(this.ribbonBar5);
-            this.ribbonPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel5.Location = new System.Drawing.Point(0, 56);
-            this.ribbonPanel5.Name = "ribbonPanel5";
-            this.ribbonPanel5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel5.Size = new System.Drawing.Size(1014, 45);
-            // 
-            // 
-            // 
-            this.ribbonPanel5.Style.Class = "";
-            this.ribbonPanel5.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel5.StyleMouseDown.Class = "";
-            this.ribbonPanel5.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel5.StyleMouseOver.Class = "";
-            this.ribbonPanel5.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel5.TabIndex = 5;
-            this.ribbonPanel5.Visible = false;
-            // 
-            // ribbonBar5
-            // 
-            this.ribbonBar5.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar5.BackgroundMouseOverStyle.Class = "";
-            this.ribbonBar5.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar5.BackgroundStyle.Class = "";
-            this.ribbonBar5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar5.ContainerControlProcessDialogKey = true;
-            this.ribbonBar5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonBar5.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.CompanyReport,
-            this.VehicleReport,
-            this.TradeDaily,
-            this.TradeMonth,
-            this.TradeYear,
-            this.TaxReport,
-            this.RegisterReport});
-            this.ribbonBar5.Location = new System.Drawing.Point(3, 0);
-            this.ribbonBar5.Name = "ribbonBar5";
-            this.ribbonBar5.Size = new System.Drawing.Size(1008, 42);
-            this.ribbonBar5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar5.TabIndex = 0;
-            this.ribbonBar5.Text = "数据统计";
-            // 
-            // 
-            // 
-            this.ribbonBar5.TitleStyle.Class = "";
-            this.ribbonBar5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar5.TitleStyleMouseOver.Class = "";
-            this.ribbonBar5.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar5.TitleVisible = false;
-            // 
-            // CompanyReport
-            // 
-            this.CompanyReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.CompanyReport.Name = "CompanyReport";
-            this.CompanyReport.SubItemsExpandWidth = 14;
-            this.CompanyReport.Text = "过户统计";
-            this.CompanyReport.Click += new System.EventHandler(this.FormBtn_Click);
-            // 
-            // VehicleReport
-            // 
-            this.VehicleReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.VehicleReport.Name = "VehicleReport";
-            this.VehicleReport.SubItemsExpandWidth = 14;
-            this.VehicleReport.Text = "车辆统计";
-            this.VehicleReport.Click += new System.EventHandler(this.FormBtn_Click);
-            // 
-            // TradeDaily
-            // 
-            this.TradeDaily.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.TradeDaily.Name = "TradeDaily";
-            this.TradeDaily.SubItemsExpandWidth = 14;
-            this.TradeDaily.Text = "交易日统计";
-            this.TradeDaily.Click += new System.EventHandler(this.FormBtn_Click);
-            // 
-            // TradeMonth
-            // 
-            this.TradeMonth.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.TradeMonth.Name = "TradeMonth";
-            this.TradeMonth.SubItemsExpandWidth = 14;
-            this.TradeMonth.Text = "交易月统计";
-            this.TradeMonth.Click += new System.EventHandler(this.FormBtn_Click);
-            // 
-            // TradeYear
-            // 
-            this.TradeYear.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.TradeYear.Name = "TradeYear";
-            this.TradeYear.SubItemsExpandWidth = 14;
-            this.TradeYear.Text = "交易年统计";
-            this.TradeYear.Click += new System.EventHandler(this.FormBtn_Click);
-            // 
-            // TaxReport
-            // 
-            this.TaxReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.TaxReport.Name = "TaxReport";
-            this.TaxReport.SubItemsExpandWidth = 14;
-            this.TaxReport.Text = "交税统计";
-            this.TaxReport.Click += new System.EventHandler(this.FormBtn_Click);
-            // 
-            // RegisterReport
-            // 
-            this.RegisterReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.RegisterReport.Name = "RegisterReport";
-            this.RegisterReport.SubItemsExpandWidth = 14;
-            this.RegisterReport.Text = "新车注册统计";
-            this.RegisterReport.Click += new System.EventHandler(this.FormBtn_Click);
             // 
             // ribbonPanel1
             // 
@@ -457,6 +333,7 @@
             this.ReTrade.Name = "ReTrade";
             this.ReTrade.SubItemsExpandWidth = 14;
             this.ReTrade.Text = "二次过户";
+            this.ReTrade.Click += new System.EventHandler(this.FormBtn_Click);
             // 
             // ribbonPanel3
             // 
@@ -634,6 +511,130 @@
             this.Password.Text = "更新密码";
             this.Password.Click += new System.EventHandler(this.Password_Click);
             // 
+            // ribbonPanel5
+            // 
+            this.ribbonPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel5.Controls.Add(this.ribbonBar5);
+            this.ribbonPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel5.Location = new System.Drawing.Point(0, 56);
+            this.ribbonPanel5.Name = "ribbonPanel5";
+            this.ribbonPanel5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel5.Size = new System.Drawing.Size(1014, 45);
+            // 
+            // 
+            // 
+            this.ribbonPanel5.Style.Class = "";
+            this.ribbonPanel5.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel5.StyleMouseDown.Class = "";
+            this.ribbonPanel5.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel5.StyleMouseOver.Class = "";
+            this.ribbonPanel5.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel5.TabIndex = 5;
+            this.ribbonPanel5.Visible = false;
+            // 
+            // ribbonBar5
+            // 
+            this.ribbonBar5.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar5.BackgroundMouseOverStyle.Class = "";
+            this.ribbonBar5.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar5.BackgroundStyle.Class = "";
+            this.ribbonBar5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar5.ContainerControlProcessDialogKey = true;
+            this.ribbonBar5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonBar5.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.CompanyReport,
+            this.VehicleReport,
+            this.TradeDaily,
+            this.TradeMonth,
+            this.TradeYear,
+            this.TaxReport,
+            this.RegisterReport});
+            this.ribbonBar5.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar5.Name = "ribbonBar5";
+            this.ribbonBar5.Size = new System.Drawing.Size(1008, 42);
+            this.ribbonBar5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar5.TabIndex = 0;
+            this.ribbonBar5.Text = "数据统计";
+            // 
+            // 
+            // 
+            this.ribbonBar5.TitleStyle.Class = "";
+            this.ribbonBar5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar5.TitleStyleMouseOver.Class = "";
+            this.ribbonBar5.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar5.TitleVisible = false;
+            // 
+            // CompanyReport
+            // 
+            this.CompanyReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.CompanyReport.Name = "CompanyReport";
+            this.CompanyReport.SubItemsExpandWidth = 14;
+            this.CompanyReport.Text = "过户统计";
+            this.CompanyReport.Click += new System.EventHandler(this.FormBtn_Click);
+            // 
+            // VehicleReport
+            // 
+            this.VehicleReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.VehicleReport.Name = "VehicleReport";
+            this.VehicleReport.SubItemsExpandWidth = 14;
+            this.VehicleReport.Text = "车辆统计";
+            this.VehicleReport.Click += new System.EventHandler(this.FormBtn_Click);
+            // 
+            // TradeDaily
+            // 
+            this.TradeDaily.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.TradeDaily.Name = "TradeDaily";
+            this.TradeDaily.SubItemsExpandWidth = 14;
+            this.TradeDaily.Text = "交易日统计";
+            this.TradeDaily.Click += new System.EventHandler(this.FormBtn_Click);
+            // 
+            // TradeMonth
+            // 
+            this.TradeMonth.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.TradeMonth.Name = "TradeMonth";
+            this.TradeMonth.SubItemsExpandWidth = 14;
+            this.TradeMonth.Text = "交易月统计";
+            this.TradeMonth.Click += new System.EventHandler(this.FormBtn_Click);
+            // 
+            // TradeYear
+            // 
+            this.TradeYear.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.TradeYear.Name = "TradeYear";
+            this.TradeYear.SubItemsExpandWidth = 14;
+            this.TradeYear.Text = "交易年统计";
+            this.TradeYear.Click += new System.EventHandler(this.FormBtn_Click);
+            // 
+            // TaxReport
+            // 
+            this.TaxReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.TaxReport.Name = "TaxReport";
+            this.TaxReport.SubItemsExpandWidth = 14;
+            this.TaxReport.Text = "交税统计";
+            this.TaxReport.Click += new System.EventHandler(this.FormBtn_Click);
+            // 
+            // RegisterReport
+            // 
+            this.RegisterReport.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.RegisterReport.Name = "RegisterReport";
+            this.RegisterReport.SubItemsExpandWidth = 14;
+            this.RegisterReport.Text = "新车注册统计";
+            this.RegisterReport.Click += new System.EventHandler(this.FormBtn_Click);
+            // 
             // ribbonTabItem1
             // 
             this.ribbonTabItem1.Checked = true;
@@ -764,11 +765,11 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
-            this.ribbonPanel5.ResumeLayout(false);
             this.ribbonPanel1.ResumeLayout(false);
             this.ribbonPanel2.ResumeLayout(false);
             this.ribbonPanel3.ResumeLayout(false);
             this.ribbonPanel4.ResumeLayout(false);
+            this.ribbonPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bar1)).EndInit();
             this.ResumeLayout(false);
 
